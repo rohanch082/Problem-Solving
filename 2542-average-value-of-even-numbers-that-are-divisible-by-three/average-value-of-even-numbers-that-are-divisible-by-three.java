@@ -8,7 +8,6 @@ class Solution {
                 count++;
             }
         }
-        // int avg = sum / count;
         return count >= 1 ? (sum/count) : 0;
     }
 }
