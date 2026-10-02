@@ -12,11 +12,7 @@ class Solution {
             else if (sum > target){
                 right--;
             }
-            else{
-                if(sum == target){
-                    return new int[] {left+1, right+1};
-                }
-            }
+            else  return new int[] {left+1, right+1};
         }
         return new int[] {-1, -1};
     }
